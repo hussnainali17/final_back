@@ -10,7 +10,7 @@ dotenv.config();
 app.use(express.json()); // Correct: Mounting middleware
 app.use(express.urlencoded({ extended: true }));
 app.use(cors({
-  origin: 'http://localhost:5173', // React frontend URL
+  origin: 'https://final-front-g5tb.onrender.com', // React frontend URL
   credentials: true                // ✅ Allow cookies to be sent
 }));
 
